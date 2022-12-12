@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+
+/*CSS IS FUCKING SHIT I HATE IT ITS FUCKING SUCKS*/
+*{
+	box-sizing: border-box;
+}
+
+input[type=text], input[type=password]{
+	display: flex;
+  	flex-wrap:no-wrap;
+	width: 60%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+
+button[type=submit] {
+	width:60%;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	
+
+  	background-color: #9FF29C;
+  	color: black;
+  	padding: 14px 8px;
+  	margin: 10px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+button[type=submit]:hover{
+	background-color: #9FF94F;
+}
+
+.form{
+	display:flex;
+	justify-content: center;
+  	align-items: center;
+  	flex-wrap: wrap;
+  	width:20%;
+  	
+  	flex-direction: column;
+}
+.div{
+	display:flex;
+	justify-content: center;
+	
+}
+
+.center{
+	text-align:center;
+	justify-content: center;
+	align-items: center
+}
+.userDisplay-div{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	width: 40%;
+  	margin : 1%;
+  	flex-direction: column;
+}
+.userDisplay-top-div{
+	flex-direction: column;
+	text-align:center;
+}
+.userDisplay-form{
+	display: flex;
+	width:100%;
+	text-align:center;
+	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+	
+}
+.userDisplay-main-div{
+	display:flex;
+	flex-wrap: no-wrap;
+	flex-direction: column;
+	justify-content: center;
+  	align-items: center;
+}
+.footer{
+	position:absolute;
+	bottom:0px;
+	background-color: #B9FBB9;
+	margin:0px;
+	padding: 0px;
+	width:99%;
+}
